@@ -1,0 +1,61 @@
+body {
+    background-color: #FFC0CB; /* Rosa Claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    color: #000000 ; /* Cor de Texto Padrão */
+    text-align :center;
+    top: 0;
+
+}
+
+p {
+    text-align: center;
+    color: #000000 ;
+
+}
+
+.content {
+    padding: 20px;
+}
+
+/* Botão "Comprar" */
+.buy-button {
+    background-color: #008000; /* Marrom */
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-align :center;
+}
+
+/* Estilos para imagens do carrossel */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    text-align :center;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+/* Links de navegação no menu */
+.sidenav a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #00f;
+}
